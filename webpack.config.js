@@ -7,7 +7,8 @@ const webpack = require('webpack');
 
 const path = require('path');
 
-module.exports = {
+
+ let config= {
 	mode:'development',
 	
 　　entry: path.resolve(__dirname, './src/index.js'),
@@ -76,3 +77,23 @@ new webpack.ProvidePlugin({
             })
 　　 ]
 };
+
+
+config.devServer = {
+    host: '0.0.0.0',//可以使用ip访问
+    port:'8888',
+    contentBase: path.join(__dirname,'./dist'),//打包后的文件
+    overlay:{
+      errors:true //直接在网页上显示错误
+    },
+    publicPath:'/dist',
+    historyApiFallback:{
+      index:'index.html'
+    }
+ 
+  }
+
+
+
+
+module.exports = config
