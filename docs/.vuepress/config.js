@@ -8,7 +8,8 @@ module.exports = ctx => ({
       description: '自己的前端记录'
     }
   },
-  dest:'./',
+  base:'/boot/',
+  dest:'./boot',
 
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }],
