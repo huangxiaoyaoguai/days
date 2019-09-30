@@ -9,23 +9,27 @@ import GlobalLayout from "/Users/huangcheng/.config/yarn/global/node_modules/@vu
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-0748c0b6",
-    path: "/",
+    name: "v-73b90f5e",
+    path: "/guide/preface.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0748c0b6").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-73b90f5e").then(next)
     },
   },
   {
-    path: "/index.html",
-    redirect: "/"
+    name: "v-1c4a1bbe",
+    path: "/guide/webpack.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1c4a1bbe").then(next)
+    },
   },
   {
-    name: "v-09581d8b",
+    name: "v-953666ba",
     path: "/guide/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-09581d8b").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-953666ba").then(next)
     },
   },
   {
@@ -33,20 +37,16 @@ export const routes = [
     redirect: "/guide/"
   },
   {
-    name: "v-0b3783d6",
-    path: "/guide/webpack.html",
+    name: "v-5b6432bd",
+    path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0b3783d6").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-5b6432bd").then(next)
     },
   },
   {
-    name: "v-62a67776",
-    path: "/guide/preface.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-62a67776").then(next)
-    },
+    path: "/index.html",
+    redirect: "/"
   },
   {
     path: '*',

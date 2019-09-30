@@ -4,16 +4,38 @@
 export const siteData = {
   "title": "",
   "description": "",
-  "base": "/",
+  "base": "/boot/",
   "pages": [
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/preface.html",
+      "relativePath": "guide/preface.md",
+      "key": "v-73b90f5e",
+      "path": "/guide/preface.html"
+    },
+    {
+      "title": "webpack组件复用指南",
+      "frontmatter": {},
+      "regularPath": "/guide/webpack.html",
+      "relativePath": "guide/webpack.md",
+      "key": "v-1c4a1bbe",
+      "path": "/guide/webpack.html"
+    },
+    {
+      "title": "指南使用手册",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-953666ba",
+      "path": "/guide/"
+    },
     {
       "title": "Home",
       "frontmatter": {
         "home": true,
-        "heroImage": "timg.png",
-        "actionText": "开始 →",
+        "actionText": "前端笔记",
         "actionLink": "/guide/",
-        "features": [
+        "<!-- features": [
           {
             "title": "简单",
             "details": "事情做到简单"
@@ -24,43 +46,34 @@ export const siteData = {
           },
           {
             "title": "为善",
-            "details": "以善行天下。"
+            "details": "与人为善。 -->"
           }
         ],
-        "footer": "黄家二少爷"
+        "<!-- footer": "二少爷 -->"
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-0748c0b6",
+      "key": "v-5b6432bd",
       "path": "/"
-    },
-    {
-      "title": "指南使用手册",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-09581d8b",
-      "path": "/guide/"
-    },
-    {
-      "title": "webpack组件复用指南",
-      "frontmatter": {},
-      "regularPath": "/guide/webpack.html",
-      "relativePath": "guide/webpack.md",
-      "key": "v-0b3783d6",
-      "path": "/guide/webpack.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/guide/preface.html",
-      "relativePath": "guide/preface.md",
-      "key": "v-62a67776",
-      "path": "/guide/preface.html"
     }
   ],
   "themeConfig": {
-    "repo": "xiaomuzhu/front-end-interview",
-    "editLinks": true,
+    "repo": "huangxiaoyaoguai/days",
+    "editLinks": false,
+    "nav": [
+      {
+        "text": "Home",
+        "link": "/"
+      },
+      {
+        "text": "Guide",
+        "link": "/guide/"
+      },
+      {
+        "text": "External",
+        "link": "https://google.com"
+      }
+    ],
     "locales": {
       "/": {
         "editLinkText": "在 GitHub 上编辑此页",
@@ -95,8 +108,8 @@ export const siteData = {
   "locales": {
     "/": {
       "lang": "zh-CN",
-      "title": "我的前端记录",
-      "description": "自己的前端记录",
+      "title": "二少爷",
+      "description": "好想做一个顽固的少爷，每天游手好闲，不学无术，多自在。",
       "path": "/"
     }
   }
