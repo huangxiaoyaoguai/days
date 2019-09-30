@@ -14,22 +14,6 @@ export const siteData = {
       "path": "/guide/preface.html"
     },
     {
-      "title": "webpack组件复用指南",
-      "frontmatter": {},
-      "regularPath": "/guide/webpack.html",
-      "relativePath": "guide/webpack.md",
-      "key": "v-1c4a1bbe",
-      "path": "/guide/webpack.html"
-    },
-    {
-      "title": "指南使用手册",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-953666ba",
-      "path": "/guide/"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -55,6 +39,22 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-5b6432bd",
       "path": "/"
+    },
+    {
+      "title": "webpack组件复用指南",
+      "frontmatter": {},
+      "regularPath": "/guide/webpack.html",
+      "relativePath": "guide/webpack.md",
+      "key": "v-1c4a1bbe",
+      "path": "/guide/webpack.html"
+    },
+    {
+      "title": "指南使用手册",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-953666ba",
+      "path": "/guide/"
     }
   ],
   "themeConfig": {

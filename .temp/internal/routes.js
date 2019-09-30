@@ -17,6 +17,18 @@ export const routes = [
     },
   },
   {
+    name: "v-5b6432bd",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5b6432bd").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
     name: "v-1c4a1bbe",
     path: "/guide/webpack.html",
     component: GlobalLayout,
@@ -35,18 +47,6 @@ export const routes = [
   {
     path: "/guide/index.html",
     redirect: "/guide/"
-  },
-  {
-    name: "v-5b6432bd",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5b6432bd").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
   },
   {
     path: '*',

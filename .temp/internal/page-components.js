@@ -3,7 +3,7 @@
  */
 export default {
   "v-73b90f5e": () => import("/Users/huangcheng/hc/dayUP/days/docs/guide/preface.md"),
+  "v-5b6432bd": () => import("/Users/huangcheng/hc/dayUP/days/docs/README.md"),
   "v-1c4a1bbe": () => import("/Users/huangcheng/hc/dayUP/days/docs/guide/webpack.md"),
-  "v-953666ba": () => import("/Users/huangcheng/hc/dayUP/days/docs/guide/README.md"),
-  "v-5b6432bd": () => import("/Users/huangcheng/hc/dayUP/days/docs/README.md") 
+  "v-953666ba": () => import("/Users/huangcheng/hc/dayUP/days/docs/guide/README.md") 
 }
