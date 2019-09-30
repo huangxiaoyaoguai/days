@@ -9,14 +9,6 @@ import GlobalLayout from "/Users/huangcheng/.config/yarn/global/node_modules/@vu
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-73b90f5e",
-    path: "/guide/preface.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-73b90f5e").then(next)
-    },
-  },
-  {
     name: "v-5b6432bd",
     path: "/",
     component: GlobalLayout,
@@ -47,6 +39,14 @@ export const routes = [
   {
     path: "/guide/index.html",
     redirect: "/guide/"
+  },
+  {
+    name: "v-73b90f5e",
+    path: "/guide/preface.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-73b90f5e").then(next)
+    },
   },
   {
     path: '*',

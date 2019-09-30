@@ -7,13 +7,6 @@ export const siteData = {
   "base": "/boot/",
   "pages": [
     {
-      "frontmatter": {},
-      "regularPath": "/guide/preface.html",
-      "relativePath": "guide/preface.md",
-      "key": "v-73b90f5e",
-      "path": "/guide/preface.html"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -55,6 +48,13 @@ export const siteData = {
       "relativePath": "guide/README.md",
       "key": "v-953666ba",
       "path": "/guide/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/preface.html",
+      "relativePath": "guide/preface.md",
+      "key": "v-73b90f5e",
+      "path": "/guide/preface.html"
     }
   ],
   "themeConfig": {
