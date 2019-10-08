@@ -7,6 +7,44 @@ export const siteData = {
   "base": "/boot/",
   "pages": [
     {
+      "title": "浏览器相关",
+      "frontmatter": {},
+      "regularPath": "/guide/browser/browser.html",
+      "relativePath": "guide/browser/browser.md",
+      "key": "v-86834984",
+      "path": "/guide/browser/browser.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "浏览器事件机制",
+          "slug": "浏览器事件机制"
+        },
+        {
+          "level": 3,
+          "title": "事件传播",
+          "slug": "事件传播"
+        },
+        {
+          "level": 3,
+          "title": "阻止冒泡和默认事件",
+          "slug": "阻止冒泡和默认事件"
+        },
+        {
+          "level": 3,
+          "title": "事件回调",
+          "slug": "事件回调"
+        }
+      ]
+    },
+    {
+      "title": "开始",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-953666ba",
+      "path": "/guide/"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -34,27 +72,12 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "webpack组件复用指南",
+      "title": "webpack组件复用指南11111",
       "frontmatter": {},
-      "regularPath": "/guide/webpack.html",
-      "relativePath": "guide/webpack.md",
-      "key": "v-1c4a1bbe",
-      "path": "/guide/webpack.html"
-    },
-    {
-      "title": "指南使用手册",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-953666ba",
-      "path": "/guide/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/guide/preface.html",
-      "relativePath": "guide/preface.md",
-      "key": "v-73b90f5e",
-      "path": "/guide/preface.html"
+      "regularPath": "/guide/webpack/webpack.html",
+      "relativePath": "guide/webpack/webpack.md",
+      "key": "v-6c66b3fe",
+      "path": "/guide/webpack/webpack.html"
     }
   ],
   "themeConfig": {
@@ -89,15 +112,70 @@ export const siteData = {
               "title": "前言",
               "collapsable": false,
               "children": [
-                "",
-                "preface"
+                ""
               ]
             },
             {
-              "title": "webpack",
+              "title": "浏览器",
               "collapsable": false,
               "children": [
-                "webpack"
+                "browser/browser"
+              ]
+            },
+            {
+              "title": "前端工程化",
+              "collapsable": false,
+              "children": [
+                ""
+              ]
+            },
+            {
+              "title": "js",
+              "collapsable": false,
+              "children": [
+                ""
+              ]
+            },
+            {
+              "title": "前端框架",
+              "collapsable": false,
+              "children": [
+                ""
+              ]
+            },
+            {
+              "title": "小程序",
+              "collapsable": false,
+              "children": [
+                ""
+              ]
+            },
+            {
+              "title": "react",
+              "collapsable": false,
+              "children": [
+                ""
+              ]
+            },
+            {
+              "title": "vue",
+              "collapsable": false,
+              "children": [
+                ""
+              ]
+            },
+            {
+              "title": "算法",
+              "collapsable": false,
+              "children": [
+                ""
+              ]
+            },
+            {
+              "title": "管理",
+              "collapsable": false,
+              "children": [
+                ""
               ]
             }
           ]

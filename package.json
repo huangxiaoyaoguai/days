@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev":"vuepress dev docs --temp .temp",
+    "build":"vuepress build docs --temp .temp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

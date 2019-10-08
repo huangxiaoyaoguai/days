@@ -77,17 +77,75 @@ function renderSiderBar() {
             title: '前言',
             collapsable: false,
             children: [
-                '',
-                'preface'
+                ''
             ]
         },
         {
-            title: 'webpack',
+            title:'浏览器',
             collapsable: false,
             children: [
-                'webpack',
+                'browser/browser'
             ]
         },
+        {
+            title:'前端工程化',
+            collapsable: false,
+            children: [
+                ''
+            ]
+        },
+
+         {
+            title:'js',
+            collapsable: false,
+            children: [
+                ''
+            ]
+        },
+        {
+            title:'前端框架',
+            collapsable: false,
+            children: [
+                ''
+            ]
+        },
+        {
+            title:'小程序',
+            collapsable: false,
+            children: [
+                ''
+            ]
+        },
+        {
+            title:'react',
+            collapsable: false,
+            children: [
+                ''
+            ]
+        },
+        {
+            title:'vue',
+            collapsable: false,
+            children: [
+                ''
+            ]
+        },
+          {
+            title:'算法',
+            collapsable: false,
+            children: [
+                ''
+            ]
+        },
+
+        {
+            title: '管理',
+            collapsable: false,
+            children: [
+                '',
+            ]
+        },
+        
 
     ])
 }
