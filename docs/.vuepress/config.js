@@ -91,7 +91,7 @@ function renderSiderBar() {
             title:'前端工程化',
             collapsable: false,
             children: [
-                ''
+                'frame/'
             ]
         },
 
@@ -99,42 +99,38 @@ function renderSiderBar() {
             title:'js',
             collapsable: false,
             children: [
-                ''
+                'js/'
             ]
         },
-        {
-            title:'前端框架',
-            collapsable: false,
-            children: [
-                ''
-            ]
-        },
+        
         {
             title:'小程序',
             collapsable: false,
             children: [
-                ''
+                'xcx/',
+                'xcx/swiper',
+                'xcx/notice'
             ]
         },
         {
             title:'react',
             collapsable: false,
             children: [
-                ''
+                'react/'
             ]
         },
         {
             title:'vue',
             collapsable: false,
             children: [
-                ''
+                'vue/'
             ]
         },
           {
             title:'算法',
             collapsable: false,
             children: [
-                ''
+                'algorithm/'
             ]
         },
 
@@ -142,7 +138,7 @@ function renderSiderBar() {
             title: '管理',
             collapsable: false,
             children: [
-                '',
+                'manage/',
             ]
         },
         

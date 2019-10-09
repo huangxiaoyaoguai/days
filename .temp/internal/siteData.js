@@ -7,6 +7,56 @@ export const siteData = {
   "base": "/boot/",
   "pages": [
     {
+      "title": "开始",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-953666ba",
+      "path": "/guide/"
+    },
+    {
+      "title": "算法",
+      "frontmatter": {},
+      "regularPath": "/guide/algorithm/",
+      "relativePath": "guide/algorithm/README.md",
+      "key": "v-79b98223",
+      "path": "/guide/algorithm/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/frame/webpack.html",
+      "relativePath": "guide/frame/webpack.md",
+      "key": "v-93232c04",
+      "path": "/guide/frame/webpack.html"
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "actionText": "前端笔记",
+        "actionLink": "/guide/",
+        "<!-- features": [
+          {
+            "title": "简单",
+            "details": "事情做到简单"
+          },
+          {
+            "title": "极致",
+            "details": "事情做到极致。"
+          },
+          {
+            "title": "为善",
+            "details": "与人为善。 -->"
+          }
+        ],
+        "<!-- footer": "二少爷 -->"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-5b6432bd",
+      "path": "/"
+    },
+    {
       "title": "浏览器相关",
       "frontmatter": {},
       "regularPath": "/guide/browser/browser.html",
@@ -37,47 +87,76 @@ export const siteData = {
       ]
     },
     {
+      "title": "前端工程化",
+      "frontmatter": {},
+      "regularPath": "/guide/frame/",
+      "relativePath": "guide/frame/README.md",
+      "key": "v-d9b160b2",
+      "path": "/guide/frame/"
+    },
+    {
+      "title": "你不知道的js",
+      "frontmatter": {},
+      "regularPath": "/guide/js/",
+      "relativePath": "guide/js/README.md",
+      "key": "v-675afd2d",
+      "path": "/guide/js/"
+    },
+    {
+      "title": "管理成长",
+      "frontmatter": {},
+      "regularPath": "/guide/manage/",
+      "relativePath": "guide/manage/README.md",
+      "key": "v-678f35a6",
+      "path": "/guide/manage/"
+    },
+    {
+      "title": "vue学习",
+      "frontmatter": {},
+      "regularPath": "/guide/vue/",
+      "relativePath": "guide/vue/README.md",
+      "key": "v-d9aab116",
+      "path": "/guide/vue/"
+    },
+    {
       "title": "开始",
       "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-953666ba",
-      "path": "/guide/"
+      "regularPath": "/guide/interview/",
+      "relativePath": "guide/interview/README.md",
+      "key": "v-0f2d4eff",
+      "path": "/guide/interview/"
     },
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "actionText": "前端笔记",
-        "actionLink": "/guide/",
-        "<!-- features": [
-          {
-            "title": "简单",
-            "details": "事情做到简单"
-          },
-          {
-            "title": "极致",
-            "details": "事情做到极致。"
-          },
-          {
-            "title": "为善",
-            "details": "与人为善。 -->"
-          }
-        ],
-        "<!-- footer": "二少爷 -->"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-5b6432bd",
-      "path": "/"
-    },
-    {
-      "title": "webpack组件复用指南11111",
+      "title": "react学习",
       "frontmatter": {},
-      "regularPath": "/guide/webpack/webpack.html",
-      "relativePath": "guide/webpack/webpack.md",
-      "key": "v-6c66b3fe",
-      "path": "/guide/webpack/webpack.html"
+      "regularPath": "/guide/react/",
+      "relativePath": "guide/react/README.md",
+      "key": "v-bc6604fa",
+      "path": "/guide/react/"
+    },
+    {
+      "title": "小程序中如何实现抖音的无限滑动效果",
+      "frontmatter": {},
+      "regularPath": "/guide/xcx/swiper.html",
+      "relativePath": "guide/xcx/swiper.md",
+      "key": "v-2a75f990",
+      "path": "/guide/xcx/swiper.html"
+    },
+    {
+      "title": "小程序笔记",
+      "frontmatter": {},
+      "regularPath": "/guide/xcx/",
+      "relativePath": "guide/xcx/README.md",
+      "key": "v-4f9e7fe7",
+      "path": "/guide/xcx/"
+    },
+    {
+      "title": "开发注意",
+      "frontmatter": {},
+      "regularPath": "/guide/xcx/notice.html",
+      "relativePath": "guide/xcx/notice.md",
+      "key": "v-40c9f660",
+      "path": "/guide/xcx/notice.html"
     }
   ],
   "themeConfig": {
@@ -126,56 +205,51 @@ export const siteData = {
               "title": "前端工程化",
               "collapsable": false,
               "children": [
-                ""
+                "frame/"
               ]
             },
             {
               "title": "js",
               "collapsable": false,
               "children": [
-                ""
-              ]
-            },
-            {
-              "title": "前端框架",
-              "collapsable": false,
-              "children": [
-                ""
+                "js/"
               ]
             },
             {
               "title": "小程序",
               "collapsable": false,
               "children": [
-                ""
+                "xcx/",
+                "xcx/swiper",
+                "xcx/notice"
               ]
             },
             {
               "title": "react",
               "collapsable": false,
               "children": [
-                ""
+                "react/"
               ]
             },
             {
               "title": "vue",
               "collapsable": false,
               "children": [
-                ""
+                "vue/"
               ]
             },
             {
               "title": "算法",
               "collapsable": false,
               "children": [
-                ""
+                "algorithm/"
               ]
             },
             {
               "title": "管理",
               "collapsable": false,
               "children": [
-                ""
+                "manage/"
               ]
             }
           ]
