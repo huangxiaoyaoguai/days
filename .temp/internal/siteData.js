@@ -7,29 +7,6 @@ export const siteData = {
   "base": "/boot/",
   "pages": [
     {
-      "title": "开始",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-953666ba",
-      "path": "/guide/"
-    },
-    {
-      "title": "算法",
-      "frontmatter": {},
-      "regularPath": "/guide/algorithm/",
-      "relativePath": "guide/algorithm/README.md",
-      "key": "v-79b98223",
-      "path": "/guide/algorithm/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/guide/frame/webpack.html",
-      "relativePath": "guide/frame/webpack.md",
-      "key": "v-93232c04",
-      "path": "/guide/frame/webpack.html"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -55,6 +32,29 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-5b6432bd",
       "path": "/"
+    },
+    {
+      "title": "开始",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-953666ba",
+      "path": "/guide/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/frame/webpack.html",
+      "relativePath": "guide/frame/webpack.md",
+      "key": "v-93232c04",
+      "path": "/guide/frame/webpack.html"
+    },
+    {
+      "title": "算法",
+      "frontmatter": {},
+      "regularPath": "/guide/algorithm/",
+      "relativePath": "guide/algorithm/README.md",
+      "key": "v-79b98223",
+      "path": "/guide/algorithm/"
     },
     {
       "title": "浏览器相关",
@@ -95,6 +95,14 @@ export const siteData = {
       "path": "/guide/frame/"
     },
     {
+      "title": "开始",
+      "frontmatter": {},
+      "regularPath": "/guide/interview/",
+      "relativePath": "guide/interview/README.md",
+      "key": "v-0f2d4eff",
+      "path": "/guide/interview/"
+    },
+    {
       "title": "你不知道的js",
       "frontmatter": {},
       "regularPath": "/guide/js/",
@@ -111,22 +119,6 @@ export const siteData = {
       "path": "/guide/manage/"
     },
     {
-      "title": "vue学习",
-      "frontmatter": {},
-      "regularPath": "/guide/vue/",
-      "relativePath": "guide/vue/README.md",
-      "key": "v-d9aab116",
-      "path": "/guide/vue/"
-    },
-    {
-      "title": "开始",
-      "frontmatter": {},
-      "regularPath": "/guide/interview/",
-      "relativePath": "guide/interview/README.md",
-      "key": "v-0f2d4eff",
-      "path": "/guide/interview/"
-    },
-    {
       "title": "react学习",
       "frontmatter": {},
       "regularPath": "/guide/react/",
@@ -135,12 +127,20 @@ export const siteData = {
       "path": "/guide/react/"
     },
     {
-      "title": "小程序中如何实现抖音的无限滑动效果",
+      "title": "vue学习",
       "frontmatter": {},
-      "regularPath": "/guide/xcx/swiper.html",
-      "relativePath": "guide/xcx/swiper.md",
-      "key": "v-2a75f990",
-      "path": "/guide/xcx/swiper.html"
+      "regularPath": "/guide/vue/",
+      "relativePath": "guide/vue/README.md",
+      "key": "v-d9aab116",
+      "path": "/guide/vue/"
+    },
+    {
+      "title": "开发注意",
+      "frontmatter": {},
+      "regularPath": "/guide/xcx/notice.html",
+      "relativePath": "guide/xcx/notice.md",
+      "key": "v-40c9f660",
+      "path": "/guide/xcx/notice.html"
     },
     {
       "title": "小程序笔记",
@@ -151,12 +151,12 @@ export const siteData = {
       "path": "/guide/xcx/"
     },
     {
-      "title": "开发注意",
+      "title": "小程序中如何实现抖音的无限滑动效果",
       "frontmatter": {},
-      "regularPath": "/guide/xcx/notice.html",
-      "relativePath": "guide/xcx/notice.md",
-      "key": "v-40c9f660",
-      "path": "/guide/xcx/notice.html"
+      "regularPath": "/guide/xcx/swiper.html",
+      "relativePath": "guide/xcx/swiper.md",
+      "key": "v-2a75f990",
+      "path": "/guide/xcx/swiper.html"
     }
   ],
   "themeConfig": {
