@@ -4,7 +4,7 @@ module.exports = ctx => ({
     locales: {
         '/': {
             lang: 'zh-CN',
-            title: '二少爷',
+            title: '二少爷的笔记',
             description: '好想做一个顽固的少爷，每天游手好闲，不学无术，多自在。'
         }
     },
@@ -99,7 +99,8 @@ function renderSiderBar() {
             title:'js',
             collapsable: false,
             children: [
-                'js/'
+                'js/',
+                'js/es6'
             ]
         },
         

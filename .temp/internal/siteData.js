@@ -34,12 +34,12 @@ export const siteData = {
       "path": "/"
     },
     {
-      "title": "开始",
+      "title": "算法",
       "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-953666ba",
-      "path": "/guide/"
+      "regularPath": "/guide/algorithm/",
+      "relativePath": "guide/algorithm/README.md",
+      "key": "v-79b98223",
+      "path": "/guide/algorithm/"
     },
     {
       "frontmatter": {},
@@ -49,12 +49,28 @@ export const siteData = {
       "path": "/guide/frame/webpack.html"
     },
     {
-      "title": "算法",
+      "title": "前端工程化",
       "frontmatter": {},
-      "regularPath": "/guide/algorithm/",
-      "relativePath": "guide/algorithm/README.md",
-      "key": "v-79b98223",
-      "path": "/guide/algorithm/"
+      "regularPath": "/guide/frame/",
+      "relativePath": "guide/frame/README.md",
+      "key": "v-d9b160b2",
+      "path": "/guide/frame/"
+    },
+    {
+      "title": "开始",
+      "frontmatter": {},
+      "regularPath": "/guide/interview/",
+      "relativePath": "guide/interview/README.md",
+      "key": "v-0f2d4eff",
+      "path": "/guide/interview/"
+    },
+    {
+      "title": "你不知道的js",
+      "frontmatter": {},
+      "regularPath": "/guide/js/",
+      "relativePath": "guide/js/README.md",
+      "key": "v-675afd2d",
+      "path": "/guide/js/"
     },
     {
       "title": "浏览器相关",
@@ -87,30 +103,6 @@ export const siteData = {
       ]
     },
     {
-      "title": "前端工程化",
-      "frontmatter": {},
-      "regularPath": "/guide/frame/",
-      "relativePath": "guide/frame/README.md",
-      "key": "v-d9b160b2",
-      "path": "/guide/frame/"
-    },
-    {
-      "title": "开始",
-      "frontmatter": {},
-      "regularPath": "/guide/interview/",
-      "relativePath": "guide/interview/README.md",
-      "key": "v-0f2d4eff",
-      "path": "/guide/interview/"
-    },
-    {
-      "title": "你不知道的js",
-      "frontmatter": {},
-      "regularPath": "/guide/js/",
-      "relativePath": "guide/js/README.md",
-      "key": "v-675afd2d",
-      "path": "/guide/js/"
-    },
-    {
       "title": "管理成长",
       "frontmatter": {},
       "regularPath": "/guide/manage/",
@@ -127,14 +119,6 @@ export const siteData = {
       "path": "/guide/react/"
     },
     {
-      "title": "vue学习",
-      "frontmatter": {},
-      "regularPath": "/guide/vue/",
-      "relativePath": "guide/vue/README.md",
-      "key": "v-d9aab116",
-      "path": "/guide/vue/"
-    },
-    {
       "title": "开发注意",
       "frontmatter": {},
       "regularPath": "/guide/xcx/notice.html",
@@ -143,12 +127,225 @@ export const siteData = {
       "path": "/guide/xcx/notice.html"
     },
     {
-      "title": "小程序笔记",
+      "title": "ES6 增加的属性",
       "frontmatter": {},
-      "regularPath": "/guide/xcx/",
-      "relativePath": "guide/xcx/README.md",
-      "key": "v-4f9e7fe7",
-      "path": "/guide/xcx/"
+      "regularPath": "/guide/js/es6.html",
+      "relativePath": "guide/js/es6.md",
+      "key": "v-09446680",
+      "path": "/guide/js/es6.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "ES2015",
+          "slug": "es2015"
+        },
+        {
+          "level": 3,
+          "title": "声明",
+          "slug": "声明"
+        },
+        {
+          "level": 3,
+          "title": "解构赋值",
+          "slug": "解构赋值"
+        },
+        {
+          "level": 3,
+          "title": "字符串扩展",
+          "slug": "字符串扩展"
+        },
+        {
+          "level": 3,
+          "title": "数值扩展",
+          "slug": "数值扩展"
+        },
+        {
+          "level": 3,
+          "title": "对象扩展",
+          "slug": "对象扩展"
+        },
+        {
+          "level": 3,
+          "title": "函数扩展",
+          "slug": "函数扩展"
+        },
+        {
+          "level": 3,
+          "title": "正则扩展",
+          "slug": "正则扩展"
+        },
+        {
+          "level": 3,
+          "title": "Symbol",
+          "slug": "symbol"
+        },
+        {
+          "level": 3,
+          "title": "Set",
+          "slug": "set"
+        },
+        {
+          "level": 3,
+          "title": "map",
+          "slug": "map"
+        },
+        {
+          "level": 3,
+          "title": "Proxy",
+          "slug": "proxy"
+        },
+        {
+          "level": 3,
+          "title": "Reflect",
+          "slug": "reflect"
+        },
+        {
+          "level": 3,
+          "title": "class",
+          "slug": "class"
+        },
+        {
+          "level": 3,
+          "title": "Module",
+          "slug": "module"
+        },
+        {
+          "level": 3,
+          "title": "Iterator",
+          "slug": "iterator"
+        },
+        {
+          "level": 3,
+          "title": "Promise",
+          "slug": "promise"
+        },
+        {
+          "level": 3,
+          "title": "Generator",
+          "slug": "generator"
+        },
+        {
+          "level": 2,
+          "title": "ES2016",
+          "slug": "es2016"
+        },
+        {
+          "level": 3,
+          "title": "数值扩展",
+          "slug": "数值扩展-2"
+        },
+        {
+          "level": 3,
+          "title": "数组扩展",
+          "slug": "数组扩展"
+        },
+        {
+          "level": 2,
+          "title": "ES2017",
+          "slug": "es2017"
+        },
+        {
+          "level": 3,
+          "title": "声明",
+          "slug": "声明-2"
+        },
+        {
+          "level": 3,
+          "title": "字符串扩展",
+          "slug": "字符串扩展-2"
+        },
+        {
+          "level": 3,
+          "title": "对象扩展",
+          "slug": "对象扩展-2"
+        },
+        {
+          "level": 3,
+          "title": "函数扩展",
+          "slug": "函数扩展-2"
+        },
+        {
+          "level": 3,
+          "title": "Async",
+          "slug": "async"
+        },
+        {
+          "level": 2,
+          "title": "ES2018",
+          "slug": "es2018"
+        },
+        {
+          "level": 3,
+          "title": "字符串扩展",
+          "slug": "字符串扩展-3"
+        },
+        {
+          "level": 3,
+          "title": "对象扩展",
+          "slug": "对象扩展-3"
+        },
+        {
+          "level": 3,
+          "title": "正则扩展",
+          "slug": "正则扩展-2"
+        },
+        {
+          "level": 3,
+          "title": "Promise",
+          "slug": "promise-2"
+        },
+        {
+          "level": 3,
+          "title": "Async",
+          "slug": "async-2"
+        },
+        {
+          "level": 2,
+          "title": "ES2019",
+          "slug": "es2019"
+        },
+        {
+          "level": 3,
+          "title": "字符串扩展",
+          "slug": "字符串扩展-4"
+        },
+        {
+          "level": 3,
+          "title": "多想扩展",
+          "slug": "多想扩展"
+        },
+        {
+          "level": 3,
+          "title": "数组扩展",
+          "slug": "数组扩展-2"
+        },
+        {
+          "level": 3,
+          "title": "函数扩展",
+          "slug": "函数扩展-3"
+        },
+        {
+          "level": 3,
+          "title": "symbol",
+          "slug": "symbol-2"
+        }
+      ]
+    },
+    {
+      "title": "开始",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-953666ba",
+      "path": "/guide/"
+    },
+    {
+      "title": "vue学习",
+      "frontmatter": {},
+      "regularPath": "/guide/vue/",
+      "relativePath": "guide/vue/README.md",
+      "key": "v-d9aab116",
+      "path": "/guide/vue/"
     },
     {
       "title": "小程序中如何实现抖音的无限滑动效果",
@@ -157,6 +354,14 @@ export const siteData = {
       "relativePath": "guide/xcx/swiper.md",
       "key": "v-2a75f990",
       "path": "/guide/xcx/swiper.html"
+    },
+    {
+      "title": "小程序笔记",
+      "frontmatter": {},
+      "regularPath": "/guide/xcx/",
+      "relativePath": "guide/xcx/README.md",
+      "key": "v-4f9e7fe7",
+      "path": "/guide/xcx/"
     }
   ],
   "themeConfig": {
@@ -212,7 +417,8 @@ export const siteData = {
               "title": "js",
               "collapsable": false,
               "children": [
-                "js/"
+                "js/",
+                "js/es6"
               ]
             },
             {
@@ -260,7 +466,7 @@ export const siteData = {
   "locales": {
     "/": {
       "lang": "zh-CN",
-      "title": "二少爷",
+      "title": "二少爷的笔记",
       "description": "好想做一个顽固的少爷，每天游手好闲，不学无术，多自在。",
       "path": "/"
     }
