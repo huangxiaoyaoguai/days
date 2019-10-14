@@ -91,7 +91,8 @@ function renderSiderBar() {
             title:'前端工程化',
             collapsable: false,
             children: [
-                'frame/'
+                'frame/',
+                'frame/interview'
             ]
         },
 
@@ -117,7 +118,8 @@ function renderSiderBar() {
             title:'react',
             collapsable: false,
             children: [
-                'react/'
+                'react/',
+                'react/interview'
             ]
         },
         {
