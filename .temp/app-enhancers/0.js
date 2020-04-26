@@ -1,1 +1,1 @@
-export { default } from "/Users/huangcheng/hc/dayUP/days/docs/.vuepress/enhanceApp.js"
+export { default } from "/Users/huangcheng/hc/days/docs/.vuepress/enhanceApp.js"

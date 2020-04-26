@@ -7,6 +7,14 @@ export const siteData = {
   "base": "/boot/",
   "pages": [
     {
+      "title": "开始",
+      "frontmatter": {},
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-09581d8b",
+      "path": "/guide/"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -30,15 +38,22 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-5b6432bd",
+      "key": "v-0748c0b6",
       "path": "/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/frame/webpack.html",
+      "relativePath": "guide/frame/webpack.md",
+      "key": "v-40c86e16",
+      "path": "/guide/frame/webpack.html"
     },
     {
       "title": "算法",
       "frontmatter": {},
       "regularPath": "/guide/algorithm/",
       "relativePath": "guide/algorithm/README.md",
-      "key": "v-79b98223",
+      "key": "v-e4f961ea",
       "path": "/guide/algorithm/"
     },
     {
@@ -46,7 +61,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/guide/frame/",
       "relativePath": "guide/frame/README.md",
-      "key": "v-d9b160b2",
+      "key": "v-a93ef6e2",
       "path": "/guide/frame/"
     },
     {
@@ -54,60 +69,61 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/guide/frame/interview.html",
       "relativePath": "guide/frame/interview.md",
-      "key": "v-fd3d9504",
+      "key": "v-ef2924d4",
       "path": "/guide/frame/interview.html"
     },
     {
+      "title": "你不知道的js",
       "frontmatter": {},
-      "regularPath": "/guide/frame/webpack.html",
-      "relativePath": "guide/frame/webpack.md",
-      "key": "v-93232c04",
-      "path": "/guide/frame/webpack.html"
-    },
-    {
-      "title": "浏览器相关",
-      "frontmatter": {},
-      "regularPath": "/guide/browser/browser.html",
-      "relativePath": "guide/browser/browser.md",
-      "key": "v-86834984",
-      "path": "/guide/browser/browser.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "浏览器事件机制",
-          "slug": "浏览器事件机制"
-        },
-        {
-          "level": 3,
-          "title": "事件传播",
-          "slug": "事件传播"
-        },
-        {
-          "level": 3,
-          "title": "阻止冒泡和默认事件",
-          "slug": "阻止冒泡和默认事件"
-        },
-        {
-          "level": 3,
-          "title": "事件回调",
-          "slug": "事件回调"
-        }
-      ]
+      "regularPath": "/guide/js/",
+      "relativePath": "guide/js/README.md",
+      "key": "v-c78fffd6",
+      "path": "/guide/js/"
     },
     {
       "title": "开始",
       "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-953666ba",
-      "path": "/guide/"
+      "regularPath": "/guide/interview/",
+      "relativePath": "guide/interview/README.md",
+      "key": "v-22f71be7",
+      "path": "/guide/interview/"
+    },
+    {
+      "title": "作用域和闭包",
+      "frontmatter": {},
+      "regularPath": "/guide/js/zcop.html",
+      "relativePath": "guide/js/zcop.md",
+      "key": "v-43f60d76",
+      "path": "/guide/js/zcop.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "理解作用域",
+          "slug": "理解作用域"
+        },
+        {
+          "level": 2,
+          "title": "函数作用域和快作用域",
+          "slug": "函数作用域和快作用域"
+        },
+        {
+          "level": 2,
+          "title": "提升",
+          "slug": "提升"
+        },
+        {
+          "level": 2,
+          "title": "闭包",
+          "slug": "闭包"
+        }
+      ]
     },
     {
       "title": "ES6 增加的属性",
       "frontmatter": {},
       "regularPath": "/guide/js/es6.html",
       "relativePath": "guide/js/es6.md",
-      "key": "v-09446680",
+      "key": "v-3e365ad8",
       "path": "/guide/js/es6.html",
       "headers": [
         {
@@ -308,73 +324,34 @@ export const siteData = {
       ]
     },
     {
-      "title": "作用域和闭包",
-      "frontmatter": {},
-      "regularPath": "/guide/js/zcop.html",
-      "relativePath": "guide/js/zcop.md",
-      "key": "v-5508a55e",
-      "path": "/guide/js/zcop.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "理解作用域",
-          "slug": "理解作用域"
-        },
-        {
-          "level": 2,
-          "title": "函数作用域和快作用域",
-          "slug": "函数作用域和快作用域"
-        },
-        {
-          "level": 2,
-          "title": "提升",
-          "slug": "提升"
-        },
-        {
-          "level": 2,
-          "title": "闭包",
-          "slug": "闭包"
-        }
-      ]
-    },
-    {
       "title": "管理成长",
       "frontmatter": {},
       "regularPath": "/guide/manage/",
       "relativePath": "guide/manage/README.md",
-      "key": "v-678f35a6",
+      "key": "v-8a0fffd6",
       "path": "/guide/manage/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/mode/",
+      "relativePath": "guide/mode/README.md",
+      "key": "v-1c4287d6",
+      "path": "/guide/mode/"
     },
     {
       "title": "react面试",
       "frontmatter": {},
       "regularPath": "/guide/react/interview.html",
       "relativePath": "guide/react/interview.md",
-      "key": "v-492fd53e",
+      "key": "v-503a0d56",
       "path": "/guide/react/interview.html"
-    },
-    {
-      "title": "开始",
-      "frontmatter": {},
-      "regularPath": "/guide/interview/",
-      "relativePath": "guide/interview/README.md",
-      "key": "v-0f2d4eff",
-      "path": "/guide/interview/"
-    },
-    {
-      "title": "你不知道的js",
-      "frontmatter": {},
-      "regularPath": "/guide/js/",
-      "relativePath": "guide/js/README.md",
-      "key": "v-675afd2d",
-      "path": "/guide/js/"
     },
     {
       "title": "react学习",
       "frontmatter": {},
       "regularPath": "/guide/react/",
       "relativePath": "guide/react/README.md",
-      "key": "v-bc6604fa",
+      "key": "v-8bf39b2a",
       "path": "/guide/react/"
     },
     {
@@ -382,15 +359,45 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/guide/xcx/",
       "relativePath": "guide/xcx/README.md",
-      "key": "v-4f9e7fe7",
+      "key": "v-7d732e62",
       "path": "/guide/xcx/"
+    },
+    {
+      "title": "浏览器相关",
+      "frontmatter": {},
+      "regularPath": "/guide/browser/browser.html",
+      "relativePath": "guide/browser/browser.md",
+      "key": "v-786ed954",
+      "path": "/guide/browser/browser.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "浏览器事件机制",
+          "slug": "浏览器事件机制"
+        },
+        {
+          "level": 3,
+          "title": "事件传播",
+          "slug": "事件传播"
+        },
+        {
+          "level": 3,
+          "title": "阻止冒泡和默认事件",
+          "slug": "阻止冒泡和默认事件"
+        },
+        {
+          "level": 3,
+          "title": "事件回调",
+          "slug": "事件回调"
+        }
+      ]
     },
     {
       "title": "vue学习",
       "frontmatter": {},
       "regularPath": "/guide/vue/",
       "relativePath": "guide/vue/README.md",
-      "key": "v-d9aab116",
+      "key": "v-04d2905d",
       "path": "/guide/vue/"
     },
     {
@@ -398,7 +405,7 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/guide/xcx/notice.html",
       "relativePath": "guide/xcx/notice.md",
-      "key": "v-40c9f660",
+      "key": "v-b3200a30",
       "path": "/guide/xcx/notice.html"
     },
     {
@@ -406,8 +413,15 @@ export const siteData = {
       "frontmatter": {},
       "regularPath": "/guide/xcx/swiper.html",
       "relativePath": "guide/xcx/swiper.md",
-      "key": "v-2a75f990",
+      "key": "v-1d6a20b0",
       "path": "/guide/xcx/swiper.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/guide/mode/feat.html",
+      "relativePath": "guide/mode/feat.md",
+      "key": "v-78d4c4f6",
+      "path": "/guide/mode/feat.html"
     }
   ],
   "themeConfig": {
@@ -450,6 +464,14 @@ export const siteData = {
               "collapsable": false,
               "children": [
                 "browser/browser"
+              ]
+            },
+            {
+              "title": "设计模式",
+              "collapsable": false,
+              "children": [
+                "mode/",
+                "mode/feat"
               ]
             },
             {

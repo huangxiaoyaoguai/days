@@ -88,6 +88,14 @@ function renderSiderBar() {
             ]
         },
         {
+            title:'设计模式',
+            collapsable: false,
+            children: [
+                'mode/',
+                'mode/feat'
+            ]
+        },
+        {
             title:'前端工程化',
             collapsable: false,
             children: [
