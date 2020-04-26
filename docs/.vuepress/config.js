@@ -81,6 +81,13 @@ function renderSiderBar() {
             ]
         },
         {
+            title:'小记',
+            collapsable: false,
+            children: [
+                'record/',
+            ]
+        },
+        {
             title:'浏览器',
             collapsable: false,
             children: [
@@ -109,6 +116,7 @@ function renderSiderBar() {
             collapsable: false,
             children: [
                 'js/',
+                'js/zcop',
                 'js/es6'
             ]
         },
@@ -151,7 +159,7 @@ function renderSiderBar() {
             children: [
                 'manage/',
             ]
-        },
+        }
         
 
     ])

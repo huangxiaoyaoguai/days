@@ -15,6 +15,14 @@ export const siteData = {
       "path": "/guide/"
     },
     {
+      "title": "算法",
+      "frontmatter": {},
+      "regularPath": "/guide/algorithm/",
+      "relativePath": "guide/algorithm/README.md",
+      "key": "v-e4f961ea",
+      "path": "/guide/algorithm/"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -49,12 +57,34 @@ export const siteData = {
       "path": "/guide/frame/webpack.html"
     },
     {
-      "title": "算法",
+      "title": "浏览器相关",
       "frontmatter": {},
-      "regularPath": "/guide/algorithm/",
-      "relativePath": "guide/algorithm/README.md",
-      "key": "v-e4f961ea",
-      "path": "/guide/algorithm/"
+      "regularPath": "/guide/browser/browser.html",
+      "relativePath": "guide/browser/browser.md",
+      "key": "v-786ed954",
+      "path": "/guide/browser/browser.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "浏览器事件机制",
+          "slug": "浏览器事件机制"
+        },
+        {
+          "level": 3,
+          "title": "事件传播",
+          "slug": "事件传播"
+        },
+        {
+          "level": 3,
+          "title": "阻止冒泡和默认事件",
+          "slug": "阻止冒泡和默认事件"
+        },
+        {
+          "level": 3,
+          "title": "事件回调",
+          "slug": "事件回调"
+        }
+      ]
     },
     {
       "title": "前端工程化",
@@ -63,14 +93,6 @@ export const siteData = {
       "relativePath": "guide/frame/README.md",
       "key": "v-a93ef6e2",
       "path": "/guide/frame/"
-    },
-    {
-      "title": "面试相关",
-      "frontmatter": {},
-      "regularPath": "/guide/frame/interview.html",
-      "relativePath": "guide/frame/interview.md",
-      "key": "v-ef2924d4",
-      "path": "/guide/frame/interview.html"
     },
     {
       "title": "你不知道的js",
@@ -89,34 +111,20 @@ export const siteData = {
       "path": "/guide/interview/"
     },
     {
-      "title": "作用域和闭包",
+      "title": "面试相关",
       "frontmatter": {},
-      "regularPath": "/guide/js/zcop.html",
-      "relativePath": "guide/js/zcop.md",
-      "key": "v-43f60d76",
-      "path": "/guide/js/zcop.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "理解作用域",
-          "slug": "理解作用域"
-        },
-        {
-          "level": 2,
-          "title": "函数作用域和快作用域",
-          "slug": "函数作用域和快作用域"
-        },
-        {
-          "level": 2,
-          "title": "提升",
-          "slug": "提升"
-        },
-        {
-          "level": 2,
-          "title": "闭包",
-          "slug": "闭包"
-        }
-      ]
+      "regularPath": "/guide/frame/interview.html",
+      "relativePath": "guide/frame/interview.md",
+      "key": "v-ef2924d4",
+      "path": "/guide/frame/interview.html"
+    },
+    {
+      "title": "管理成长",
+      "frontmatter": {},
+      "regularPath": "/guide/manage/",
+      "relativePath": "guide/manage/README.md",
+      "key": "v-8a0fffd6",
+      "path": "/guide/manage/"
     },
     {
       "title": "ES6 增加的属性",
@@ -324,14 +332,53 @@ export const siteData = {
       ]
     },
     {
-      "title": "管理成长",
+      "title": "作用域和闭包",
       "frontmatter": {},
-      "regularPath": "/guide/manage/",
-      "relativePath": "guide/manage/README.md",
-      "key": "v-8a0fffd6",
-      "path": "/guide/manage/"
+      "regularPath": "/guide/js/zcop.html",
+      "relativePath": "guide/js/zcop.md",
+      "key": "v-43f60d76",
+      "path": "/guide/js/zcop.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "理解作用域",
+          "slug": "理解作用域"
+        },
+        {
+          "level": 2,
+          "title": "函数作用域和快作用域",
+          "slug": "函数作用域和快作用域"
+        },
+        {
+          "level": 2,
+          "title": "提升",
+          "slug": "提升"
+        },
+        {
+          "level": 2,
+          "title": "闭包",
+          "slug": "闭包"
+        }
+      ]
     },
     {
+      "title": "react学习",
+      "frontmatter": {},
+      "regularPath": "/guide/react/",
+      "relativePath": "guide/react/README.md",
+      "key": "v-8bf39b2a",
+      "path": "/guide/react/"
+    },
+    {
+      "title": "记录",
+      "frontmatter": {},
+      "regularPath": "/guide/record/",
+      "relativePath": "guide/record/README.md",
+      "key": "v-68224cd6",
+      "path": "/guide/record/"
+    },
+    {
+      "title": "设计模式",
       "frontmatter": {},
       "regularPath": "/guide/mode/",
       "relativePath": "guide/mode/README.md",
@@ -347,50 +394,12 @@ export const siteData = {
       "path": "/guide/react/interview.html"
     },
     {
-      "title": "react学习",
+      "title": "面向对象的三大特性",
       "frontmatter": {},
-      "regularPath": "/guide/react/",
-      "relativePath": "guide/react/README.md",
-      "key": "v-8bf39b2a",
-      "path": "/guide/react/"
-    },
-    {
-      "title": "小程序笔记",
-      "frontmatter": {},
-      "regularPath": "/guide/xcx/",
-      "relativePath": "guide/xcx/README.md",
-      "key": "v-7d732e62",
-      "path": "/guide/xcx/"
-    },
-    {
-      "title": "浏览器相关",
-      "frontmatter": {},
-      "regularPath": "/guide/browser/browser.html",
-      "relativePath": "guide/browser/browser.md",
-      "key": "v-786ed954",
-      "path": "/guide/browser/browser.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "浏览器事件机制",
-          "slug": "浏览器事件机制"
-        },
-        {
-          "level": 3,
-          "title": "事件传播",
-          "slug": "事件传播"
-        },
-        {
-          "level": 3,
-          "title": "阻止冒泡和默认事件",
-          "slug": "阻止冒泡和默认事件"
-        },
-        {
-          "level": 3,
-          "title": "事件回调",
-          "slug": "事件回调"
-        }
-      ]
+      "regularPath": "/guide/mode/feat.html",
+      "relativePath": "guide/mode/feat.md",
+      "key": "v-78d4c4f6",
+      "path": "/guide/mode/feat.html"
     },
     {
       "title": "vue学习",
@@ -401,12 +410,12 @@ export const siteData = {
       "path": "/guide/vue/"
     },
     {
-      "title": "开发注意",
+      "title": "小程序笔记",
       "frontmatter": {},
-      "regularPath": "/guide/xcx/notice.html",
-      "relativePath": "guide/xcx/notice.md",
-      "key": "v-b3200a30",
-      "path": "/guide/xcx/notice.html"
+      "regularPath": "/guide/xcx/",
+      "relativePath": "guide/xcx/README.md",
+      "key": "v-7d732e62",
+      "path": "/guide/xcx/"
     },
     {
       "title": "小程序中如何实现抖音的无限滑动效果",
@@ -417,11 +426,12 @@ export const siteData = {
       "path": "/guide/xcx/swiper.html"
     },
     {
+      "title": "开发注意",
       "frontmatter": {},
-      "regularPath": "/guide/mode/feat.html",
-      "relativePath": "guide/mode/feat.md",
-      "key": "v-78d4c4f6",
-      "path": "/guide/mode/feat.html"
+      "regularPath": "/guide/xcx/notice.html",
+      "relativePath": "guide/xcx/notice.md",
+      "key": "v-b3200a30",
+      "path": "/guide/xcx/notice.html"
     }
   ],
   "themeConfig": {
@@ -460,6 +470,13 @@ export const siteData = {
               ]
             },
             {
+              "title": "小记",
+              "collapsable": false,
+              "children": [
+                "record/"
+              ]
+            },
+            {
               "title": "浏览器",
               "collapsable": false,
               "children": [
@@ -487,6 +504,7 @@ export const siteData = {
               "collapsable": false,
               "children": [
                 "js/",
+                "js/zcop",
                 "js/es6"
               ]
             },
