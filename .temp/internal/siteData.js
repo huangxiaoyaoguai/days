@@ -7,22 +7,6 @@ export const siteData = {
   "base": "/boot/",
   "pages": [
     {
-      "title": "开始",
-      "frontmatter": {},
-      "regularPath": "/guide/",
-      "relativePath": "guide/README.md",
-      "key": "v-09581d8b",
-      "path": "/guide/"
-    },
-    {
-      "title": "算法",
-      "frontmatter": {},
-      "regularPath": "/guide/algorithm/",
-      "relativePath": "guide/algorithm/README.md",
-      "key": "v-e4f961ea",
-      "path": "/guide/algorithm/"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -50,11 +34,28 @@ export const siteData = {
       "path": "/"
     },
     {
+      "title": "开始",
       "frontmatter": {},
-      "regularPath": "/guide/frame/webpack.html",
-      "relativePath": "guide/frame/webpack.md",
-      "key": "v-40c86e16",
-      "path": "/guide/frame/webpack.html"
+      "regularPath": "/guide/",
+      "relativePath": "guide/README.md",
+      "key": "v-09581d8b",
+      "path": "/guide/"
+    },
+    {
+      "title": "算法",
+      "frontmatter": {},
+      "regularPath": "/guide/algorithm/",
+      "relativePath": "guide/algorithm/README.md",
+      "key": "v-e4f961ea",
+      "path": "/guide/algorithm/"
+    },
+    {
+      "title": "前端工程化",
+      "frontmatter": {},
+      "regularPath": "/guide/frame/",
+      "relativePath": "guide/frame/README.md",
+      "key": "v-a93ef6e2",
+      "path": "/guide/frame/"
     },
     {
       "title": "浏览器相关",
@@ -87,20 +88,19 @@ export const siteData = {
       ]
     },
     {
-      "title": "前端工程化",
+      "title": "面试相关",
       "frontmatter": {},
-      "regularPath": "/guide/frame/",
-      "relativePath": "guide/frame/README.md",
-      "key": "v-a93ef6e2",
-      "path": "/guide/frame/"
+      "regularPath": "/guide/frame/interview.html",
+      "relativePath": "guide/frame/interview.md",
+      "key": "v-ef2924d4",
+      "path": "/guide/frame/interview.html"
     },
     {
-      "title": "你不知道的js",
       "frontmatter": {},
-      "regularPath": "/guide/js/",
-      "relativePath": "guide/js/README.md",
-      "key": "v-c78fffd6",
-      "path": "/guide/js/"
+      "regularPath": "/guide/frame/webpack.html",
+      "relativePath": "guide/frame/webpack.md",
+      "key": "v-40c86e16",
+      "path": "/guide/frame/webpack.html"
     },
     {
       "title": "开始",
@@ -111,20 +111,12 @@ export const siteData = {
       "path": "/guide/interview/"
     },
     {
-      "title": "面试相关",
+      "title": "你不知道的js",
       "frontmatter": {},
-      "regularPath": "/guide/frame/interview.html",
-      "relativePath": "guide/frame/interview.md",
-      "key": "v-ef2924d4",
-      "path": "/guide/frame/interview.html"
-    },
-    {
-      "title": "管理成长",
-      "frontmatter": {},
-      "regularPath": "/guide/manage/",
-      "relativePath": "guide/manage/README.md",
-      "key": "v-8a0fffd6",
-      "path": "/guide/manage/"
+      "regularPath": "/guide/js/",
+      "relativePath": "guide/js/README.md",
+      "key": "v-c78fffd6",
+      "path": "/guide/js/"
     },
     {
       "title": "ES6 增加的属性",
@@ -332,6 +324,14 @@ export const siteData = {
       ]
     },
     {
+      "title": "管理成长",
+      "frontmatter": {},
+      "regularPath": "/guide/manage/",
+      "relativePath": "guide/manage/README.md",
+      "key": "v-8a0fffd6",
+      "path": "/guide/manage/"
+    },
+    {
       "title": "作用域和闭包",
       "frontmatter": {},
       "regularPath": "/guide/js/zcop.html",
@@ -370,28 +370,12 @@ export const siteData = {
       "path": "/guide/react/"
     },
     {
-      "title": "记录",
-      "frontmatter": {},
-      "regularPath": "/guide/record/",
-      "relativePath": "guide/record/README.md",
-      "key": "v-68224cd6",
-      "path": "/guide/record/"
-    },
-    {
       "title": "设计模式",
       "frontmatter": {},
       "regularPath": "/guide/mode/",
       "relativePath": "guide/mode/README.md",
       "key": "v-1c4287d6",
       "path": "/guide/mode/"
-    },
-    {
-      "title": "react面试",
-      "frontmatter": {},
-      "regularPath": "/guide/react/interview.html",
-      "relativePath": "guide/react/interview.md",
-      "key": "v-503a0d56",
-      "path": "/guide/react/interview.html"
     },
     {
       "title": "面向对象的三大特性",
@@ -402,12 +386,28 @@ export const siteData = {
       "path": "/guide/mode/feat.html"
     },
     {
+      "title": "react面试",
+      "frontmatter": {},
+      "regularPath": "/guide/react/interview.html",
+      "relativePath": "guide/react/interview.md",
+      "key": "v-503a0d56",
+      "path": "/guide/react/interview.html"
+    },
+    {
       "title": "vue学习",
       "frontmatter": {},
       "regularPath": "/guide/vue/",
       "relativePath": "guide/vue/README.md",
       "key": "v-04d2905d",
       "path": "/guide/vue/"
+    },
+    {
+      "title": "记录",
+      "frontmatter": {},
+      "regularPath": "/guide/record/",
+      "relativePath": "guide/record/README.md",
+      "key": "v-68224cd6",
+      "path": "/guide/record/"
     },
     {
       "title": "小程序笔记",
@@ -418,20 +418,20 @@ export const siteData = {
       "path": "/guide/xcx/"
     },
     {
-      "title": "小程序中如何实现抖音的无限滑动效果",
-      "frontmatter": {},
-      "regularPath": "/guide/xcx/swiper.html",
-      "relativePath": "guide/xcx/swiper.md",
-      "key": "v-1d6a20b0",
-      "path": "/guide/xcx/swiper.html"
-    },
-    {
       "title": "开发注意",
       "frontmatter": {},
       "regularPath": "/guide/xcx/notice.html",
       "relativePath": "guide/xcx/notice.md",
       "key": "v-b3200a30",
       "path": "/guide/xcx/notice.html"
+    },
+    {
+      "title": "小程序中如何实现抖音的无限滑动效果",
+      "frontmatter": {},
+      "regularPath": "/guide/xcx/swiper.html",
+      "relativePath": "guide/xcx/swiper.md",
+      "key": "v-1d6a20b0",
+      "path": "/guide/xcx/swiper.html"
     }
   ],
   "themeConfig": {
